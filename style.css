@@ -16,14 +16,15 @@ body {
 .flex {
   display: flex;
 }
-h2.titulo{
-    color:#E9DCCE;
-    font-size: 48px;
-    text-align: center;
+h2.titulo {
+  color: #e9dcce;
+  font-size: 48px;
+  text-align: center;
 }
-h2.titulo span{
-    color:#3C433C ;
+h2.titulo span {
+  color: #3c433c;
 }
+
 /* estilo do cabeçalho */
 header {
   font-family: "Poppins", sans-serif;
@@ -37,7 +38,7 @@ header > .interface {
   font-size: 24px;
 }
 header a {
-  color: #E9DCCE;
+  color: #e9dcce;
   font-style: italic;
   text-decoration: none;
   display: inline-block;
@@ -69,7 +70,7 @@ section.topo-do-site {
   padding: 150px 4%;
   margin: 50px 14%;
   border-radius: 14px;
-  background: var(--Cor-fundo, #E0D5C9);
+  background: var(--Cor-fundo, #e0d5c9);
   width: 1329px;
   height: 561px;
   flex-shrink: 0;
@@ -119,29 +120,68 @@ button:hover {
   transition: 1s;
 }
 /* estilo das especialidade */
-section.especialidades{
-    padding:40px 4%;
+section.especialidades {
+  padding: 40px 4%;
 }
-.flex{
-    gap: 60px;
-    margin-top: 45px;
+.flex {
+  gap: 60px;
+  margin-top: 45px;
 }
-.especialidade-box{
-    color:#E9DCCE;
-    padding: 40px;
-    border-radius: 20px;
-    margin-top: 45px;
-    
+.especialidade-box {
+  color: #e9dcce;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: 0.2s;
 }
-.especialidade-box:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 8px #e0d5c95b;
+.especialidade-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #e0d5c95b;
 }
-.especialidade-box i{
-    font-size: 78px;
-    color: #353d35 ;
+.especialidade-box i {
+  font-size: 78px;
+  color: #353d35;
 }
-.especialidade-box h3{
-    font-size: 48px;
-    margin:15px 0;
+.especialidade-box h3 {
+  font-size: 48px;
+  margin: 15px 0;
+}
+/* estilo Sobre */
+section.sobre {
+  padding: 80px 4%;
+}
+section.sobre .flex {
+  align-items: center;
+  gap: 60px;
+}
+.sobre .txt-sobre {
+  color: #e9dcce;
+}
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span {
+  color: #3c433c;
+  display: block;
+}
+.sobre .txt-sobre p {
+  margin: 30px 0%;
+  text-align: justify;
+}
+.txt-sobre .icones button {
+  height: 70px;
+  border-radius: 30px;
+  border: none;
+  background-color: #3c433c;
+  color: #e9dcce;
+  font-size: 30px;
+  margin: 0 10px;
+  transition: 0.2s;
+}
+.txt-sobre .icones button:hover {
+  background-color: white;
+  color: #353d35;
+  transition: 1s;
 }
