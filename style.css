@@ -244,7 +244,15 @@ form .invite input {
   font-family: Poppins;
   font-size: 18px;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 700; 
   line-height: 120%;
   cursor: pointer;
+}
+/* estilo do rodape */
+footer{
+  padding:40px 4%;
+  box-shadow: 0 0 40px 10px #3C433C;
+}
+footer .flex{
+  justify-content: space-between;
 }
