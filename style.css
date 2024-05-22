@@ -180,8 +180,71 @@ section.sobre .flex {
   margin: 0 10px;
   transition: 0.2s;
 }
-.txt-sobre .icones button:hover {
+.txt-sobre .icones button:hover,
+form .invite input:hover {
   background-color: white;
   color: #353d35;
   transition: 1s;
+}
+/* estilo formulario */
+section.formulario {
+  padding: 80px 4%;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 48px;
+}
+form input,
+form textarea {
+  width: 100%;
+  background-color: #424a42;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 18px;
+  font-family: Poppins;
+}
+form textarea {
+  height: 158px;
+  padding: 40px 15px;
+}
+form input::placeholder {
+  font-family: Poppins;
+  color: #e9dcce;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 120%;
+}
+form textarea {
+  resize: none;
+}
+form textarea::placeholder {
+  font-family: Poppins;
+  color: #e9dcce;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 120%;
+}
+form .invite {
+  margin-top: 20px;
+  text-align: center;
+}
+form .invite input {
+  width: 241px;
+  background: #3c433c;
+  border-radius: 400px;
+  color: #e9dcce;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 120%;
+  cursor: pointer;
 }
