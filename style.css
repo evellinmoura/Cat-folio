@@ -170,7 +170,7 @@ section.sobre .flex {
   margin: 30px 0%;
   text-align: justify;
 }
-.txt-sobre .icones button {
+.icones button {
   height: 70px;
   border-radius: 30px;
   border: none;
@@ -180,7 +180,7 @@ section.sobre .flex {
   margin: 0 10px;
   transition: 0.2s;
 }
-.txt-sobre .icones button:hover,
+.icones button:hover,
 form .invite input:hover {
   background-color: white;
   color: #353d35;
@@ -244,15 +244,29 @@ form .invite input {
   font-family: Poppins;
   font-size: 18px;
   font-style: italic;
-  font-weight: 700; 
+  font-weight: 700;
   line-height: 120%;
   cursor: pointer;
 }
 /* estilo do rodape */
-footer{
-  padding:40px 4%;
-  box-shadow: 0 0 40px 10px #3C433C;
+footer {
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px #3c433c;
 }
-footer .flex{
+footer .flex {
   justify-content: space-between;
+}
+footer .line-footer {
+  padding: 20px 0;
+}
+.borda {
+  border-top: 4px solid #3c433c;
+}
+footer .line-footer p i {
+  color: #e9dcce;
+  font-size: 22px;
+}
+footer .line-footer p a {
+  color: #e0d5c9;
+  text-decoration: none;
 }
