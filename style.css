@@ -251,7 +251,7 @@ form .invite input {
 /* estilo do rodape */
 footer {
   padding: 40px 4%;
-  box-shadow: 0 0 40px 10px #3c433c;
+  box-shadow: 0 0 40px 10px  #e9dcce;
 }
 footer .flex {
   justify-content: space-between;
