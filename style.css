@@ -251,7 +251,7 @@ form .invite input {
 /* estilo do rodape */
 footer {
   padding: 40px 4%;
-  box-shadow: 0 0 40px 10px  #3c433c;
+  box-shadow: 0 0 40px 10px #3c433c;
 }
 footer .flex {
   justify-content: space-between;
@@ -260,7 +260,7 @@ footer .line-footer {
   padding: 20px 0;
 }
 .borda {
-  border-top: 4px solid #e9dcce;
+  border-top: 4px solid #3c433c;
 }
 footer .line-footer p i {
   color: #e9dcce;
@@ -269,4 +269,25 @@ footer .line-footer p i {
 footer .line-footer p a {
   color: #e0d5c9;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1020px) {
+  /*CLASSES GERAIS DO SITE*/
+  .flex {
+    flex-direction: column-reverse;
+  }
+  /*CABECALHO*/
+  .menu-desktop {
+    display: none;
+  }
+  /*TOPO DO SITE*/
+  section.topo-do-site {
+    display: flex;
+    padding: 20px 8%;
+    background: var(--Cor-fundo, none);
+  }
+  .topo-do-site .txt-topo-site h1 {
+    font-size: 30px;
+    line-height: 50%;
+  }
 }
